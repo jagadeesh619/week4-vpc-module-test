@@ -3,7 +3,7 @@ module "week4_vpc_test" {
 
   vpc_cidr_block             = "10.0.0.0/16"
   vpc_name                   = "week4_vpc"
-  vpc_igw_name               = "week4_igw"
+  igw_name               = "week4_igw"
   public_subnet_cidr_block   = "10.0.1.0/24"
   public_subnet_name         = "public_subnet"
   private_subnet_cidr_block  = "10.0.11.0/24"
